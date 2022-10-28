@@ -1,0 +1,120 @@
+body{
+    font-family: 'century;' sans-serif; 
+    box-sizing: border-box;
+    cursor: grab;
+}
+.container{
+    width: 900px;
+    margin: auto;
+    margin-top: 20px;   
+    position: relative;
+    max-width: 970px;   
+    padding: 45px 40px 35px;
+    background: #f9f8f8;
+    box-sizing: border-box;
+}
+form{
+    padding: 10px;   
+    border: 1px dotted white;
+    margin: 5px;
+    line-height: 1.8rem;
+}
+h2{
+    text-align: center;
+    font-weight: 900;
+    font-family: 'century;'; 
+   
+}
+   
+
+input{
+    padding: 10px;
+    margin: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    width: 90%; 
+    font-family: Verdana,  Tahoma, sans-serif;
+    box-shadow: 0 0 30px #eee;
+    
+}
+.gender,.dob,.col{
+    display: block;
+    margin-left: 22px;
+    font-family: Verdana,  Tahoma, sans-serif;
+
+}
+.gender select{
+    height: 2rem;
+    margin-left: 2.5rem;
+    width: 80%;
+}
+.dob input,.col input{
+    width: 75%;
+    
+}
+
+#sign_up{
+
+    text-align: center;
+    width: 90%;
+}
+.users{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'century;'; 
+    margin-top: 20px;
+   
+}
+button{
+    border: none;
+    margin-top: 20px;
+    width: 80%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #ff5421;
+}
+#card{
+    position: relative;
+    background: f9f8f8;
+    display: block;
+    width: 320px;
+    text-align: center;
+    margin: 40px auto;
+    border-radius: 8px;
+}
+#upper-side{
+    padding: 2em;
+    background: #ff5421;
+    color: #eee;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;    
+}
+h3{
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+#lower-side{
+    padding: 2em;
+    background: #faefef;
+    color: 000;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;    
+}
+#btn{
+    position: relative;
+    background-color: #ff5421;
+    color: #fff;
+    padding: 0.5em 3em;
+    border-radius: 25px;
+    top: 1em;
+}
+#btn:hover{
+    color: #000;
+    background-color: #c48572;
+}
