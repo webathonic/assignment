@@ -1,0 +1,57 @@
+*{
+    margin: 0,auto;
+    padding: 0;
+
+}
+body{
+    background: #000;   
+    
+    display: flex;
+    place-items: center;
+    height: 100vh;
+}
+main{
+    width: 50%;
+    margin: auto;
+    background: rgb(10, 10, 32);
+   
+}
+.grid{
+    padding: 2rem 4rem;
+    display: grid;
+    grid-template-areas:
+    "first first first first  second second"
+    "first first first first  second second"
+    "third third third fourth fourth fourth" 
+    "third third third fifth fifth fifth"
+    ;
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+main div{
+    text-align: center;
+    padding: 1rem;
+    
+}
+.first{
+    background-color: orangered; 
+    grid-area: first;
+    
+}
+.second{
+    background: yellow;
+    grid-area: second;
+}
+.third{
+    background: rgb(72, 220, 72);
+    grid-area: third;
+
+}
+.fourth{
+    background: cyan;
+    grid-area: fourth;
+}
+.fifth{
+    background: cyan;
+    grid-area: fifth;
+}

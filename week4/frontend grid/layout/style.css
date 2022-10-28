@@ -1,0 +1,57 @@
+* {
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 0,auto;
+    padding: 0;
+    cursor: grab;
+    
+}
+body{
+   background: #fff;
+   display: flex;
+   place-items: center;
+   height: 100vh;
+   width: 100vw;
+}
+.container{
+    position: relative;
+    display: flex; 
+    color: #fff;
+    max-width: 700px ;    
+    cursor: pointer;
+   
+}
+h2{
+    font-family: 'Big Shoulders Display', cursive;
+    padding: 10px 20px;
+}
+svg{
+    padding: 10px 20px;
+}
+p{    
+    padding: 10px 20px;
+    font-weight: 400;
+}
+.sedan{
+    background:  hsl(31, 77%, 52%);
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.suv{
+    background: hsl(184, 100%, 22%);
+}
+.luxury{
+    background: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+button{
+    border-radius: 25px ;
+    background: transparent;
+    margin: 1.5rem;
+    font-size: 10px; 
+    padding: 10px 20px;
+    color: #fff;
+    border-color: #fff;    
+    
+}

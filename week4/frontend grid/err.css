@@ -1,0 +1,43 @@
+body{
+    background: #000;
+    align-items: center;
+   
+}
+main{
+    margin: 0 auto;
+    background: rgb(11, 11, 44);
+    width: 80%;  
+    padding: 10px;   
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);    
+    gap: 10px;
+    text-align: center;
+}
+
+.first{
+    background-color: orangered; 
+    grid-column: 1/3;
+    grid-row: 1;
+    
+}
+.second{
+    background: yellow;
+    grid-column: 3/3;
+    grid-row: 1;   
+}
+.third{
+    background: rgb(72, 220, 72);
+    grid-column: 1/;
+    grid-row: 2/4;
+
+}
+.fourth{
+    background: cyan;
+}
+.fifth{
+    background: cyan;
+}
